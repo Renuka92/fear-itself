@@ -9,16 +9,7 @@ body {
 
 p {
   font-family: 'Hind';
-  padding: 0px 0px 0px 50px;
-}
-
-h1 {
-  margin: 0px 650px 0px 0px;
-  font-size: 150px;
-  text-align: center;
-  color: #8C3CEA;
-  line-height: 150px;
-  font-weight: 900;
+  /* padding: 0px 0px 0px 25px; */
 }
 
 h2 {
@@ -29,20 +20,28 @@ h2 {
 
 h3 {
   font-size: 40px;
-  padding: 50px 0px 0px 20px;
+  padding: 0px 0px 0px 20px;
 }
 
 h4 {
-  font-size: 30px;
-  padding: 0px 0px 0px 45px;
+  font-family: 'Hind';
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 1000px 0px 0px;
+  line-height: 0;
 }
 
-td {
-  padding-bottom: 5px;
+.tableimage {
+  padding: 25px 0px 50px 0px;
 }
 
-img {
-  padding: 30px 0px;
+.tabletext {
+  padding: 0px 0px 0px 25px;
+}
+
+.creditText {
+  color: #8C3CEA;
+  font-size: 20px;
 }
 
 .nav {
@@ -83,31 +82,41 @@ img {
   font-style: italic;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .content {
   margin-top: 30px;
   padding: 50px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: 70%;
+  order: 2;
+}
+
+.text {
+  margin: 0px 100px 0px 100px;
+  font-size: 100px;
+  text-align: center;
+  color: #8C3CEA;
+  line-height: 50px;
+  font-weight: 900;
+  /* font-style: italic; */
+  /* padding-left: 1020px; */
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .num {
   font-size:40px;
   color:#8C3CEA;
-  padding:25px 25px 0px 50px;
+  padding: 25px 15px 0px 50px;
   font-weight: bold;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
 }
