@@ -3,8 +3,8 @@
 body {
   margin: 20px;
   font-family: 'Teko';
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #FFF;
+  background-color: #000;
 }
 
 p {
@@ -38,6 +38,18 @@ h4 {
   color: #8A2BE2;
 }
 
+.recordingText p{
+  color: #fff;
+  width: 500px;
+  vertical-align: middle;
+  padding: 0px 40px 30px 20px;
+}
+
+.recording {
+  text-align: right;
+  padding: 0px 100px 0px 200px;
+}
+
 .tableimage {
   padding: 25px 0px 50px 0px;
 }
@@ -46,8 +58,13 @@ h4 {
   padding: 0px 0px 0px 25px;
 }
 
+.creditAbout {
+  padding:0px 0px 0px 25px;
+  font-size: 20px;
+}
+
 .creditTable {
-  padding: 0px 30px 0px 150px;
+  padding: 0px 30px 0px 50px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
