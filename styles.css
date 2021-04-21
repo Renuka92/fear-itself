@@ -42,7 +42,11 @@ h4 {
   color: #fff;
   width: 500px;
   vertical-align: middle;
-  padding: 0px 40px 30px 20px;
+  padding: 0px 40px 30px 50px;
+}
+
+span {
+  color: #8A2BE2;
 }
 
 .recording {
@@ -84,12 +88,13 @@ h4 {
 #banner {
   /* position: absolute; */
   /* margin: 0 auto; */
-  display: block;
+  display: flex;
 }
 
 .downloadButton {
   background-color: #000;
   border: 0px;
+  padding: 0px;
 }
 
 .nav {
@@ -138,8 +143,9 @@ h4 {
 
 .container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  padding-top: 0px;
 }
 
 .image {
