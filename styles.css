@@ -23,6 +23,18 @@ h3 {
   padding: 0px 0px 0px 20px;
 }
 
+.story-text {
+  padding: 0px 0px 0px 0px;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.story-description {
+  font-size: 20px;
+}
+
+
 h4 {
   font-family: 'Hind';
   font-size: 15px;
